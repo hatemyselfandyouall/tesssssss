@@ -30,6 +30,6 @@ public class mainPage {
             blog.setContent("hello thymeleaf+i");
         }
         map.put("blogs",blogs);
-        return "index";
+        return "frontPage/index";
     }
 }

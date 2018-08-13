@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
     @RequestMapping(value = "/test.htm",  method = RequestMethod.GET)
     public String test() {
-        return "helloWorld.html";
+        return "helloWorld/helloWorld";
     }
 
     public static void main(String[] args) {
